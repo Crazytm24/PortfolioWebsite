@@ -64,7 +64,7 @@
 								<div class="inner" id="expandedProgramContent">
 									<section class="project">
 										<div id="aiBehaviorSystemTitle">
-											<h2 class="project-title">AI Behavior System – Clyde Manor</h2>
+											<h2 class="project-title">AI Behavior System – State Machine – Clyde Manor</h2>
 										</div>
 
 										<h3 class="section-title">Summary</h3>
@@ -118,25 +118,21 @@
 
 										<h3 class="section-title">Summary</h3>
 										<p class="section-text">
-											This project involved designing AI behavior for two enemies: <strong>Peek</strong> and <strong>Boo</strong>. These characters were meant to act in opposite ways:
-											<strong>Boo</strong> mimics a Weeping Angel, freezing while in sight and chasing when unseen; while <strong>Peek</strong> can only move while being watched and stops when out of view.
+											Being inspiried by games like Heroscape, Civilization, and Black & White, I wanted to create a dynamic hex grid system that would allow for the user to build out and modify
+											a world comprimising of hex tiles. The user would be abkle to create pathways and modify tile height.
 										</p>
 
 										<h3 class="section-title">Architecture</h3>
 										<p class="section-text">
-											A simple state machine architecture was used to handle the transition between behaviors. This structure allowed for clean separation of logic, easier expansion, and clear AI control.
+											The main components that need to be in place for this to succeed is a grid of tiles that each individually store environment related data as well as know their neighbors and can 
+											change it's own data based off changes within those neighbors. 
 										</p>
 										<img class="project-image" src="images/PeekStateMachine.PNG" alt="State machine diagram for Peek and Boo AI" />
 
 										<h3 class="section-title">Code</h3>
-										<p>All of the code for this project is available here, <a href="https://github.com/Crazytm24/HexTileWorldBuilderScripts" target="_blank">Github Scripts</a>.</p>
+										<p>I have made all the scripts for this project available in this public repository, <a href="https://github.com/Crazytm24/HexTileWorldBuilderScripts" target="_blank">Github Scripts</a>.</p>
 										<div class="code-gallery">
 											<a href="codeImages/booCode0.PNG" class="lightbox"><img src="codeImages/booCode0.PNG" alt="Code snippet 0" /></a>
-											<a href="codeImages/booStateMachineClass.PNG" class="lightbox"><img src="codeImages/booStateMachineClass.PNG" alt="State machine class code" /></a>
-											<a href="codeImages/booCode3.PNG" class="lightbox"><img src="codeImages/booCode3.PNG" alt="Code snippet 3" /></a>
-											<a href="codeImages/booCode4.PNG" class="lightbox"><img src="codeImages/booCode4.PNG" alt="Code snippet 4" /></a>
-											<a href="codeImages/booCode5.PNG" class="lightbox"><img src="codeImages/booCode5.PNG" alt="Code snippet 5" /></a>
-											<a href="codeImages/booCode6.PNG" class="lightbox"><img src="codeImages/booCode6.PNG" alt="Code snippet 6" /></a>
 										</div>
 
 										<div id="lightbox-overlay">
@@ -149,15 +145,16 @@
 											<div class="analysis-block">
 												<h4>✅ What I Did Well</h4>
 												<ul>
-													<li>Implemented a flexible state machine to manage AI behavior efficiently.</li>
-													<li>Designed the system to allow easy expansion with additional states like "Stunned."</li>
+													<li>Implemented a dynamic grid system that allows for flexible world building.</li>
+													<li>Constructed an algorithm to manage tile layout and rotation to ensure seamless tile connections.</li>
+													<li>Utilized data structures to efficiently organize tile data and observe changes in tile neighbors.</li>
 												</ul>
 											</div>
 											<div class="analysis-block">
 												<h4>🔧 What Could Be Improved</h4>
 												<ul>
-													<li>The state machine is tightly coupled with Peek and Boo logic. Refactoring for modularity would improve reuse.</li>
-													<li>Animation logic is embedded in state logic; separating them would improve maintainability and testability.</li>
+													<li>This project is still in it's early days and though it has been built with the idea to allow for multiple connection types such as rivers, it has not been implemented to see if it actually can work for more than one connection type.</li>
+													<li>Some aspects are overcomplicated, I strive to follow clean code standards with good naming conventions which allow for the code to be understood without much documentation. Though I feel that there are multiple instances that are not intuitive and require the documentation to make sense.</li>
 												</ul>
 											</div>
 										</div>
@@ -230,12 +227,12 @@
 									</div>
 								</div>
 								<div class="inner" style="padding-top: 10px;"  id="expandedDesignContent">
-									<p>Here’s more detailed information about the projects I’ve worked on:</p>
-									<ul>
+									<p>Section under construction.</p>
+									<!-- <ul>
 									<li>Project 1: Description of gameplay system</li>
 									<li>Project 2: Tools I built for level design</li>
 									<li>Project 3: AI implementation and behavior trees</li>
-									</ul>
+									</ul> -->
 									<button class="special show" id="collapseDesign" style="padding-top: 50px;">Show Less</button>
 								</div>
 							</section>
@@ -249,7 +246,7 @@
 										<ul>
 											<li><strong>Languages:</strong> C#, C++, Python</li>
 											<li><strong>Engines/Tools:</strong> Unity, Unreal, Git, Visual Studio</li>
-											<li><strong>Gameplay Systems:</strong> Combat, Movement, Inventory, AI</li>
+											<li><strong>Gameplay Systems:</strong> Combat, Movement, Inventory, AI, A*</li>
 											<li><strong>Design:</strong> Level layout, mechanic prototyping, enemy behavior</li>
 										</ul>	
 									</div>
