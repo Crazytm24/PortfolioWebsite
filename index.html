@@ -35,12 +35,17 @@
 									<h2 class="major">About Me</h2>
 									<div style="display: flex; flex-direction: column; justify-content: space-evenly; text-align: left;">
 										<p>
-											My name is Tanner Mann. I’m a gameplay programmer with experience in Unity and C#, specializing in building responsive and modular gameplay systems. 
-											I also enjoy working closely with designers to prototype and refine mechanics that enhance player experience. 
-											Whether I’m creating a parry-based combat system or developing editor tools, I focus on clean, maintainable code that supports iteration and performance.
+											My name is Tanner Mann. I am a gameplay programmer proficient in C# and C++, primarily using Unity with a working knowledge
+											in Unreal Engine. With a Computer Science degree from Utah Valley University, multiple years of experience in web development,
+											and many personal game projects under my belt, I bring a strong technical foundation and a passion for creating unique gameplay
+											experiences. My favorite game genres are RPGs and Strategy games, as I love opportunities for critical thinking, and decisions
+											that affect the course of the game.
 										</p>
 										<p>
-											This portfolio presents selected projects in both <strong>programming</strong> and <strong>game design</strong>, to highlight my technical ability and collaborative mindset.
+											This portfolio presents selected projects in both <strong>programming</strong> and <strong>game design</strong>, to highlight my technical ability and design focused mentality.
+										</p>
+										<p>
+											To experience my work firsthand, please check out my <a href="https://onemanngames.itch.io/" target="_blank">Itch.io page</a>, where I have several playable game projects available.
 										</p>
 									</div>										
 								</div>
@@ -127,12 +132,11 @@
 											The main components that need to be in place for this to succeed is a grid of tiles that each individually store environment related data as well as know their neighbors and can 
 											change it's own data based off changes within those neighbors. 
 										</p>
-										<img class="project-image" src="images/PeekStateMachine.PNG" alt="State machine diagram for Peek and Boo AI" />
 
 										<h3 class="section-title">Code</h3>
 										<p>I have made all the scripts for this project available in this public repository, <a href="https://github.com/Crazytm24/HexTileWorldBuilderScripts" target="_blank">Github Scripts</a>.</p>
 										<div class="code-gallery">
-											<a href="codeImages/booCode0.PNG" class="lightbox"><img src="codeImages/booCode0.PNG" alt="Code snippet 0" /></a>
+											<a href="videos/HexmapExample.mp4" class="lightbox"><img src="videos/hex-with-play-button.png" alt="Hex Tile Example" /></a>
 										</div>
 
 										<div id="lightbox-overlay">
@@ -160,28 +164,31 @@
 										</div>
 									</section>
 									<section class="project">
-										<h2 class="project-title">AI Behavior System – Clyde Manor</h2>
+										<h2 class="project-title">A* Path Finding – Beast Master</h2>
 
 										<h3 class="section-title">Summary</h3>
 										<p class="section-text">
-											This project involved designing AI behavior for two enemies: <strong>Peek</strong> and <strong>Boo</strong>. These characters were meant to act in opposite ways:
-											<strong>Boo</strong> mimics a Weeping Angel, freezing while in sight and chasing when unseen; while <strong>Peek</strong> can only move while being watched and stops when out of view.
+											--
 										</p>
 
 										<h3 class="section-title">Architecture</h3>
 										<p class="section-text">
-											A simple state machine architecture was used to handle the transition between behaviors. This structure allowed for clean separation of logic, easier expansion, and clear AI control.
+											--
 										</p>
-										<img class="project-image" src="images/PeekStateMachine.PNG" alt="State machine diagram for Peek and Boo AI" />
+										<!-- <img class="project-image" src="images/PeekStateMachine.PNG" alt="State machine diagram for Peek and Boo AI" /> -->
 
 										<h3 class="section-title">Code</h3>
 										<div class="code-gallery">
-											<a href="codeImages/booCode0.PNG" class="lightbox"><img src="codeImages/booCode0.PNG" alt="Code snippet 0" /></a>
-											<a href="codeImages/booStateMachineClass.PNG" class="lightbox"><img src="codeImages/booStateMachineClass.PNG" alt="State machine class code" /></a>
-											<a href="codeImages/booCode3.PNG" class="lightbox"><img src="codeImages/booCode3.PNG" alt="Code snippet 3" /></a>
-											<a href="codeImages/booCode4.PNG" class="lightbox"><img src="codeImages/booCode4.PNG" alt="Code snippet 4" /></a>
-											<a href="codeImages/booCode5.PNG" class="lightbox"><img src="codeImages/booCode5.PNG" alt="Code snippet 5" /></a>
-											<a href="codeImages/booCode6.PNG" class="lightbox"><img src="codeImages/booCode6.PNG" alt="Code snippet 6" /></a>
+											<a href="codeImages/BeastMasterGrid01.png" class="lightbox"><img src="codeImages/BeastMasterGrid01.png" alt="Code snippet 0" /></a>
+											<a href="codeImages/BeastMaster02.png" class="lightbox"><img src="codeImages/BeastMaster02.png" alt="State machine class code" /></a>
+											<a href="codeImages/BeastMaster03.png" class="lightbox"><img src="codeImages/BeastMaster03.png" alt="Code snippet 3" /></a>
+											<a href="codeImages/BeastMaster04.png" class="lightbox"><img src="codeImages/BeastMaster04.png" alt="Code snippet 4" /></a>
+											<a href="codeImages/BMPN01.png" class="lightbox"><img src="codeImages/BMPN01.png" alt="Code snippet 5" /></a>
+											<a href="codeImages/BMPN02.png" class="lightbox"><img src="codeImages/BMPN02.png" alt="Code snippet 6" /></a>
+											<a href="codeImages/BMPF01.png" class="lightbox"><img src="codeImages/BMPF01.png" alt="Code snippet 0" /></a>
+											<a href="codeImages/BMPF02.png" class="lightbox"><img src="codeImages/BMPF02.png" alt="State machine class code" /></a>
+											<a href="codeImages/BMPF03.png" class="lightbox"><img src="codeImages/BMPF03.png" alt="Code snippet 3" /></a>
+											<a href="codeImages/BMPF04.png" class="lightbox"><img src="codeImages/BMPF04.png" alt="Code snippet 4" /></a>
 										</div>
 
 										<div id="lightbox-overlay">
@@ -194,15 +201,15 @@
 											<div class="analysis-block">
 												<h4>✅ What I Did Well</h4>
 												<ul>
-													<li>Implemented a flexible state machine to manage AI behavior efficiently.</li>
-													<li>Designed the system to allow easy expansion with additional states like "Stunned."</li>
+													<li>--</li>
+													<li>--</li>
 												</ul>
 											</div>
 											<div class="analysis-block">
 												<h4>🔧 What Could Be Improved</h4>
 												<ul>
-													<li>The state machine is tightly coupled with Peek and Boo logic. Refactoring for modularity would improve reuse.</li>
-													<li>Animation logic is embedded in state logic; separating them would improve maintainability and testability.</li>
+													<li>This code could benefit from being refactoring. It caused such an issue that I felt it would be faster to brake my map into multiple sections and created a way to preserve data over trying to get it to not lag up the game so much.</li>
+													<li>There is a bug that I know exists, and it comes from the when player moves when the enemy is just getting into position which sometimes causes errors for the destination of the enemy.</li>
 												</ul>
 											</div>
 										</div>
@@ -301,20 +308,58 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script>
-document.querySelectorAll('.lightbox').forEach(link => {
-	link.addEventListener('click', e => {
-		e.preventDefault();
-		const overlay = document.getElementById('lightbox-overlay');
-		const image = document.getElementById('lightbox-image');
-		image.src = link.href;
-		overlay.style.display = 'flex';
-	});
+			// Lightbox that supports images and video files (mp4, webm, ogg).
+			document.querySelectorAll('.lightbox').forEach(link => {
+				link.addEventListener('click', e => {
+					e.preventDefault();
+					const href = link.getAttribute('href');
+					const overlay = document.getElementById('lightbox-overlay');
+					if (!overlay) return;
 
-	document.getElementById('lightbox-overlay').addEventListener('click', () => {
-		document.getElementById('lightbox-overlay').style.display = 'none';
-	});
-});
-</script>
+					// Clear overlay content
+					overlay.innerHTML = '';
+
+					// If the link points to a video file, create a video player
+					if (/\.(mp4|webm|ogg)(\?.*)?$/i.test(href)) {
+						const video = document.createElement('video');
+						video.src = href;
+						video.controls = true;
+						video.autoplay = true;
+						video.style.maxWidth = '90%';
+						video.style.maxHeight = '90%';
+						video.style.boxShadow = '0 0 0.5rem rgba(0,0,0,0.5)';
+						overlay.appendChild(video);
+					} else {
+						// Otherwise treat it as an image
+						const img = document.createElement('img');
+						img.src = href;
+						img.alt = 'Preview';
+						img.style.maxWidth = '90%';
+						img.style.maxHeight = '90%';
+						img.id = 'lightbox-image';
+						overlay.appendChild(img);
+					}
+
+					overlay.style.display = 'flex';
+				});
+			});
+
+			// Close overlay when clicking the background (not when clicking the media itself)
+			const overlayEl = document.getElementById('lightbox-overlay');
+			if (overlayEl) {
+				overlayEl.addEventListener('click', (e) => {
+					if (e.target !== overlayEl) return; // ignore clicks inside the media element
+					const video = overlayEl.querySelector('video');
+					if (video) {
+						video.pause();
+						// remove src to help free memory/playback resources
+						video.removeAttribute('src');
+					}
+					overlayEl.style.display = 'none';
+					overlayEl.innerHTML = '';
+				});
+			}
+			</script>
 
 	</body>
 </html>
